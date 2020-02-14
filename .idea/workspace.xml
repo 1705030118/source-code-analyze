@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d969bf87-f3e5-4797-9fab-940ce7ace92e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Linux.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConcurrentHashMap.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HashMap.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Redis.md" beforeDir="false" afterPath="$PROJECT_DIR$/Redis.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,12 +42,50 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Linux.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="575">
                 <caret line="290" lean-forward="true" selection-start-line="290" selection-end-line="290" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HashMap.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="4662">
+                <caret line="277" column="12" selection-start-line="277" selection-start-column="12" selection-end-line="277" selection-end-column="12" />
+                <folding>
+                  <element signature="e#792#793#0" expanded="true" />
+                  <element signature="e#843#844#0" expanded="true" />
+                  <element signature="e#135#136#0" expanded="true" />
+                  <element signature="e#208#209#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ConcurrentHashMap.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="-508">
+                <caret line="187" column="28" selection-start-line="187" selection-start-column="28" selection-end-line="187" selection-end-column="28" />
+                <folding>
+                  <element signature="e#816#817#0" expanded="true" />
+                  <element signature="e#889#890#0" expanded="true" />
+                  <element signature="e#146#147#0" expanded="true" />
+                  <element signature="e#198#199#0" expanded="true" />
+                  <element signature="e#144#145#0" expanded="true" />
+                  <element signature="e#200#201#0" expanded="true" />
+                </folding>
               </first_editor>
               <second_editor />
             </state>
@@ -65,6 +103,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Redis.md" />
         <option value="$PROJECT_DIR$/Linux.md" />
+        <option value="$PROJECT_DIR$/HashMap.md" />
+        <option value="$PROJECT_DIR$/ConcurrentHashMap.md" />
       </list>
     </option>
   </component>
@@ -126,7 +166,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581690989686</updated>
-      <workItem from="1581690991498" duration="1972000" />
+      <workItem from="1581690991498" duration="5360000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1581691119289</created>
@@ -142,14 +182,22 @@
       <option name="project" value="LOCAL" />
       <updated>1581692169643</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="首次添加linux-epoll">
+      <created>1581692977009</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581692977009</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1972000" />
+    <option name="totallyTimeSpent" value="5360000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -160,7 +208,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" visible="true" weight="0.32838285" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32838285" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -187,7 +235,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="测试" />
     <MESSAGE value="首次添加redis-zset" />
-    <option name="LAST_COMMIT_MESSAGE" value="首次添加redis-zset" />
+    <MESSAGE value="首次添加linux-epoll" />
+    <option name="LAST_COMMIT_MESSAGE" value="首次添加linux-epoll" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -215,6 +264,40 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="575">
             <caret line="290" lean-forward="true" selection-start-line="290" selection-end-line="290" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HashMap.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="4662">
+            <caret line="277" column="12" selection-start-line="277" selection-start-column="12" selection-end-line="277" selection-end-column="12" />
+            <folding>
+              <element signature="e#792#793#0" expanded="true" />
+              <element signature="e#843#844#0" expanded="true" />
+              <element signature="e#135#136#0" expanded="true" />
+              <element signature="e#208#209#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConcurrentHashMap.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-508">
+            <caret line="187" column="28" selection-start-line="187" selection-start-column="28" selection-end-line="187" selection-end-column="28" />
+            <folding>
+              <element signature="e#816#817#0" expanded="true" />
+              <element signature="e#889#890#0" expanded="true" />
+              <element signature="e#146#147#0" expanded="true" />
+              <element signature="e#198#199#0" expanded="true" />
+              <element signature="e#144#145#0" expanded="true" />
+              <element signature="e#200#201#0" expanded="true" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>
