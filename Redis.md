@@ -1,13 +1,13 @@
 # zset-有序集合
 - 有序集合
-```
+```s
 typedef struct zset {
     dict *dict; // 字典
     zskiplist *zsl; // 跳跃表
 } zset;
 ```
 - 跳跃表
-```
+```s
 typedef struct zskiplist {
     struct zskiplistNode *header, *tail; // 表头节点和表尾节点
     unsigned long length; // 表中节点的数量
@@ -15,7 +15,7 @@ typedef struct zskiplist {
 } zskiplist;
 ```
 - 跳跃表节点
-```
+```s
 typedef struct zskiplistNode {
     sds ele; // 成员对象
     double score; // 分值
@@ -27,7 +27,7 @@ typedef struct zskiplistNode {
 } zskiplistNode;
 ```
 - 创建跳跃表节点
-```
+```s
 zskiplistNode *zslCreateNode(int level, double score, sds ele) {
     zskiplistNode *zn =
         zmalloc(sizeof(*zn)+level*sizeof(struct zskiplistLevel));
@@ -37,7 +37,7 @@ zskiplistNode *zslCreateNode(int level, double score, sds ele) {
 }
 ```
 - 创建跳跃表
-```
+```s
 zskiplist *zslCreate(void) {
     int j;
     zskiplist *zsl;
@@ -55,7 +55,7 @@ zskiplist *zslCreate(void) {
 }
 ```
 - 插入一个跳跃表节点（表中不存在该节点）
-```
+```s
 zskiplistNode *zslInsert(zskiplist *zsl, double score, sds ele) {
     zskiplistNode *update[ZSKIPLIST_MAXLEVEL], *x;
     unsigned int rank[ZSKIPLIST_MAXLEVEL];
@@ -111,7 +111,7 @@ zskiplistNode *zslInsert(zskiplist *zsl, double score, sds ele) {
 }
 ```
 - 删除一个跳跃表节点
-```
+```s
 void zslDeleteNode(zskiplist *zsl, zskiplistNode *x, zskiplistNode **update) {
     int i;
     for (i = 0; i < zsl->level; i++) {
@@ -133,7 +133,7 @@ void zslDeleteNode(zskiplist *zsl, zskiplistNode *x, zskiplistNode **update) {
 }
 ```
 - 范围删除（根据分值）
-```
+```s
 unsigned long zslDeleteRangeByScore(zskiplist *zsl, zrangespec *range, dict *dict) {
     zskiplistNode *update[ZSKIPLIST_MAXLEVEL], *x;
     unsigned long removed = 0;
