@@ -1,3 +1,14 @@
+# TODO
+- [ ] 成员变量
+- [ ] 节点类
+- [ ] hash方法
+- [ ] cas方法
+- [ ] get方法
+- [ ] put方法
+- [ ] helpTransfer方法
+- [ ] transfer方法
+- [ ] 树化
+
 - 成员变量
 ```java
 public class ConcurrentHashMap<K,V> extends AbstractMap<K,V>

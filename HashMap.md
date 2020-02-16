@@ -1,3 +1,12 @@
+# TODO
+- [ ] 成员变量
+- [ ] 节点类
+- [ ] hash方法
+- [ ] get方法
+- [ ] put方法
+- [ ] resize方法
+- [ ] 树化
+
 - 成员变量
 ```java
 public class HashMap<K,V> extends AbstractMap<K,V>

@@ -1,4 +1,10 @@
-# epoll
+# TODO
+- [ ] eventpoll
+- [ ] epitem
+- [ ] epoll_create
+- [ ] epoll_ctl
+- [ ] event_wait
+
 - eventpoll
 ```s
 struct eventpoll {
