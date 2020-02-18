@@ -2,22 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d969bf87-f3e5-4797-9fab-940ce7ace92e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/intset.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-aof.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-dict.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-epoll.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-event.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-list.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-object.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-rdb.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spinlock.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ziplist.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConcurrentHashMap.md" beforeDir="false" afterPath="$PROJECT_DIR$/ConcurrentHashMap.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HashMap.md" beforeDir="false" afterPath="$PROJECT_DIR$/HashMap.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linux.md" beforeDir="false" afterPath="$PROJECT_DIR$/epoll.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Redis.md" beforeDir="false" afterPath="$PROJECT_DIR$/zset.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConcurrentHashMap.md" beforeDir="false" afterPath="$PROJECT_DIR$/java/java-ConcurrentHashMap.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HashMap.md" beforeDir="false" afterPath="$PROJECT_DIR$/java/java-HashMap.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/epoll.md" beforeDir="false" afterPath="$PROJECT_DIR$/linux/linux-epoll.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intset.md" beforeDir="false" afterPath="$PROJECT_DIR$/redis/redis-intset.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-aof.md" beforeDir="false" afterPath="$PROJECT_DIR$/redis/redis-aof.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-dict.md" beforeDir="false" afterPath="$PROJECT_DIR$/redis/redis-dict.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-epoll.md" beforeDir="false" afterPath="$PROJECT_DIR$/redis/redis-epoll.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-event.md" beforeDir="false" afterPath="$PROJECT_DIR$/redis/redis-event.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-list.md" beforeDir="false" afterPath="$PROJECT_DIR$/redis/redis-list.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-object.md" beforeDir="false" afterPath="$PROJECT_DIR$/redis/redis-object.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-rdb.md" beforeDir="false" afterPath="$PROJECT_DIR$/redis/redis-rdb.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spinlock.md" beforeDir="false" afterPath="$PROJECT_DIR$/linux/linux-spinlock.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task.md" beforeDir="false" afterPath="$PROJECT_DIR$/linux/linux-task.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ziplist.md" beforeDir="false" afterPath="$PROJECT_DIR$/redis/redis-ziplist.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zset.md" beforeDir="false" afterPath="$PROJECT_DIR$/redis/redis-zset.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,19 +32,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zset.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="72">
-                <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/intset.md">
+        <entry file="file://$PROJECT_DIR$/redis/redis-intset.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="18">
@@ -55,11 +44,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ziplist.md">
+        <entry file="file://$PROJECT_DIR$/redis/redis-ziplist.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="846">
-                <caret line="47" column="74" lean-forward="true" selection-start-line="47" selection-start-column="74" selection-end-line="47" selection-end-column="74" />
+                <caret line="47" column="74" selection-start-line="47" selection-start-column="74" selection-end-line="47" selection-end-column="74" />
               </first_editor>
               <second_editor />
             </state>
@@ -67,10 +56,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/redis-rdb.md">
+        <entry file="file://$PROJECT_DIR$/redis/redis-rdb.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="1490">
+              <first_editor relative-caret-position="4644">
                 <caret line="258" column="1" selection-start-line="258" selection-start-column="1" selection-end-line="258" selection-end-column="1" />
               </first_editor>
               <second_editor />
@@ -79,7 +68,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/redis-aof.md">
+        <entry file="file://$PROJECT_DIR$/redis/redis-aof.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="90">
@@ -91,10 +80,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/redis-event.md">
+        <entry file="file://$PROJECT_DIR$/redis/redis-event.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="-112">
+              <first_editor relative-caret-position="2718">
                 <caret line="151" column="44" selection-start-line="151" selection-start-column="44" selection-end-line="151" selection-end-column="44" />
               </first_editor>
               <second_editor />
@@ -102,8 +91,8 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/redis-epoll.md">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redis/redis-epoll.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="522">
@@ -115,11 +104,35 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/redis-object.md">
+        <entry file="file://$PROJECT_DIR$/redis/redis-object.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="342">
-                <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+              <first_editor relative-caret-position="162">
+                <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/design-patterns.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="612">
+                <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+                <folding>
+                  <element signature="e#483#484#0" expanded="true" />
+                  <element signature="e#520#521#0" expanded="true" />
+                  <element signature="e#243#244#0" expanded="true" />
+                  <element signature="e#283#284#0" expanded="true" />
+                  <element signature="e#67#68#0" expanded="true" />
+                  <element signature="e#108#109#0" expanded="true" />
+                  <element signature="e#140#141#0" expanded="true" />
+                  <element signature="e#168#169#0" expanded="true" />
+                  <element signature="e#280#281#0" expanded="true" />
+                  <element signature="e#325#326#0" expanded="true" />
+                </folding>
               </first_editor>
               <second_editor />
             </state>
@@ -127,7 +140,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/redis-list.md">
+        <entry file="file://$PROJECT_DIR$/redis/redis-list.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="18">
@@ -139,10 +152,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/redis-dict.md">
+        <entry file="file://$PROJECT_DIR$/redis/redis-dict.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="-456">
+              <first_editor relative-caret-position="18">
                 <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
               </first_editor>
               <second_editor />
@@ -176,12 +189,13 @@
         <option value="$PROJECT_DIR$/redis-aof.md" />
         <option value="$PROJECT_DIR$/redis-event.md" />
         <option value="$PROJECT_DIR$/redis-epoll.md" />
+        <option value="$PROJECT_DIR$/design-patterns.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="369" />
-    <option name="y" value="323" />
+    <option name="x" value="523" />
+    <option name="y" value="282" />
     <option name="width" value="770" />
     <option name="height" value="688" />
   </component>
@@ -193,6 +207,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -200,11 +215,25 @@
               <item name="source-code-analyze" type="b2602c69:ProjectViewProjectNode" />
               <item name="source-code-analyze" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="source-code-analyze" type="b2602c69:ProjectViewProjectNode" />
+              <item name="source-code-analyze" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="source-code-analyze" type="b2602c69:ProjectViewProjectNode" />
+              <item name="source-code-analyze" type="462c0819:PsiDirectoryNode" />
+              <item name="linux" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="source-code-analyze" type="b2602c69:ProjectViewProjectNode" />
+              <item name="source-code-analyze" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -239,7 +268,9 @@
       <updated>1581690989686</updated>
       <workItem from="1581690991498" duration="6250000" />
       <workItem from="1581745141107" duration="3333000" />
-      <workItem from="1581852334359" duration="12841000" />
+      <workItem from="1581852334359" duration="13915000" />
+      <workItem from="1581919190103" duration="2922000" />
+      <workItem from="1582036033918" duration="4105000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1581691119289</created>
@@ -269,16 +300,23 @@
       <option name="project" value="LOCAL" />
       <updated>1581696493584</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="data structure and persistence and event of redis">
+      <created>1581874938368</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1581874938369</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22424000" />
+    <option name="totallyTimeSpent" value="30525000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.47272727" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2659091" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -316,7 +354,8 @@
     <MESSAGE value="首次添加redis-zset" />
     <MESSAGE value="首次添加linux-epoll" />
     <MESSAGE value="首次添加HashMap+ConcurrentHashMap" />
-    <option name="LAST_COMMIT_MESSAGE" value="首次添加HashMap+ConcurrentHashMap" />
+    <MESSAGE value="data structure and persistence and event of redis" />
+    <option name="LAST_COMMIT_MESSAGE" value="data structure and persistence and event of redis" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -329,7 +368,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/epoll.md">
+    <entry file="file://$PROJECT_DIR$/linux/linux-epoll.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="144">
@@ -339,7 +378,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spinlock.md">
+    <entry file="file://$PROJECT_DIR$/linux/linux-spinlock.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="1602">
@@ -349,7 +388,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HashMap.md">
+    <entry file="file://$PROJECT_DIR$/java/java-HashMap.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="144">
@@ -359,7 +398,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ConcurrentHashMap.md">
+    <entry file="file://$PROJECT_DIR$/java/java-ConcurrentHashMap.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="72">
@@ -369,7 +408,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task.md">
+    <entry file="file://$PROJECT_DIR$/linux/linux-task.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="444">
@@ -379,47 +418,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redis-object.md">
+    <entry file="file://$PROJECT_DIR$/redis/redis-zset.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="342">
-            <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis-list.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="18">
-            <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis-dict.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="-456">
-            <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zset.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="72">
+          <first_editor relative-caret-position="180">
             <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/intset.md">
+    <entry file="file://$PROJECT_DIR$/redis/redis-intset.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="18">
@@ -429,27 +438,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ziplist.md">
+    <entry file="file://$PROJECT_DIR$/redis/redis-ziplist.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="846">
-            <caret line="47" column="74" lean-forward="true" selection-start-line="47" selection-start-column="74" selection-end-line="47" selection-end-column="74" />
+            <caret line="47" column="74" selection-start-line="47" selection-start-column="74" selection-end-line="47" selection-end-column="74" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redis-rdb.md">
+    <entry file="file://$PROJECT_DIR$/redis/redis-rdb.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="1490">
+          <first_editor relative-caret-position="4644">
             <caret line="258" column="1" selection-start-line="258" selection-start-column="1" selection-end-line="258" selection-end-column="1" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redis-aof.md">
+    <entry file="file://$PROJECT_DIR$/redis/redis-aof.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="90">
@@ -459,21 +468,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redis-event.md">
+    <entry file="file://$PROJECT_DIR$/redis/redis-event.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="-112">
+          <first_editor relative-caret-position="2718">
             <caret line="151" column="44" selection-start-line="151" selection-start-column="44" selection-end-line="151" selection-end-column="44" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redis-epoll.md">
+    <entry file="file://$PROJECT_DIR$/redis/redis-epoll.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="522">
             <caret line="29" column="82" selection-start-line="29" selection-start-column="82" selection-end-line="29" selection-end-column="82" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis/redis-object.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="162">
+            <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis/redis-list.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="18">
+            <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis/redis-dict.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="18">
+            <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-patterns.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="612">
+            <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+            <folding>
+              <element signature="e#483#484#0" expanded="true" />
+              <element signature="e#520#521#0" expanded="true" />
+              <element signature="e#243#244#0" expanded="true" />
+              <element signature="e#283#284#0" expanded="true" />
+              <element signature="e#67#68#0" expanded="true" />
+              <element signature="e#108#109#0" expanded="true" />
+              <element signature="e#140#141#0" expanded="true" />
+              <element signature="e#168#169#0" expanded="true" />
+              <element signature="e#280#281#0" expanded="true" />
+              <element signature="e#325#326#0" expanded="true" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>
